@@ -32,26 +32,26 @@ This script also removes open and close parenthesis marks, and hyphens from colu
 
 #Input
 
-"UCI HAR Dataset"/features.txt
-"UCI HAR Dataset"/activity_labels.txt
-"UCI HAR Dataset"/train/X_train.txt
-"UCI HAR Dataset"/y_train.txt"
-"UCI HAR Dataset/train/subject_train.txt"
-"UCI HAR Dataset/test/X_test.txt"
-"UCI HAR Dataset/test/y_test.txt"
-"UCI HAR Dataset/test/subject_test.txt"
+1. "UCI HAR Dataset"/features.txt
+2. "UCI HAR Dataset"/activity_labels.txt
+3. "UCI HAR Dataset"/train/X_train.txt
+4. "UCI HAR Dataset"/y_train.txt"
+5. "UCI HAR Dataset/train/subject_train.txt"
+6. "UCI HAR Dataset/test/X_test.txt"
+7. "UCI HAR Dataset/test/y_test.txt"
+8. "UCI HAR Dataset/test/subject_test.txt"
 
 ## Output
 
 The final data frame "df_means_by_activity_subject" looks like this - just a lot wider - 88 columns:
 
   activity subject_id mn_tBodyAcc_mean_X mn_tBodyAcc_mean_Y mn_tBodyAcc_mean_Z mn_tBodyAcc_std_X
-1   LAYING          1          0.2215982        -0.04051395         -0.1132036        -0.9280565
-2   LAYING          2          0.2813734        -0.01815874         -0.1072456        -0.9740595
-3   LAYING          3          0.2755169        -0.01895568         -0.1013005        -0.9827766
-4   LAYING          4          0.2635592        -0.01500318         -0.1106882        -0.9541937
-5   LAYING          5          0.2783343        -0.01830421         -0.1079376        -0.9659345
-6   LAYING          6          0.2486565        -0.01025292         -0.1331196        -0.9340494
+1.   LAYING          1          0.2215982        -0.04051395         -0.1132036        -0.9280565
+2.   LAYING          2          0.2813734        -0.01815874         -0.1072456        -0.9740595
+3.   LAYING          3          0.2755169        -0.01895568         -0.1013005        -0.9827766
+4.   LAYING          4          0.2635592        -0.01500318         -0.1106882        -0.9541937
+5.   LAYING          5          0.2783343        -0.01830421         -0.1079376        -0.9659345
+6.   LAYING          6          0.2486565        -0.01025292         -0.1331196        -0.9340494
 
 This data frame is exported as a csv file - "means_by_activity_subject.csv". The csv file is written to the working directory.
 
