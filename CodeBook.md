@@ -35,11 +35,11 @@ This script also removes open and close parenthesis marks, and hyphens from colu
 1. "UCI HAR Dataset"/features.txt
 2. "UCI HAR Dataset"/activity_labels.txt
 3. "UCI HAR Dataset"/train/X_train.txt
-4. "UCI HAR Dataset"/y_train.txt"
-5. "UCI HAR Dataset/train/subject_train.txt"
-6. "UCI HAR Dataset/test/X_test.txt"
-7. "UCI HAR Dataset/test/y_test.txt"
-8. "UCI HAR Dataset/test/subject_test.txt"
+4. "UCI HAR Dataset"/y_train.txt
+5. "UCI HAR Dataset"/train/subject_train.txt
+6. "UCI HAR Dataset"/test/X_test.txt
+7. "UCI HAR Dataset"/test/y_test.txt
+8. "UCI HAR Dataset"/test/subject_test.txt
 
 ## Output
 
