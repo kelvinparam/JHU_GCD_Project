@@ -77,8 +77,8 @@ The leading "mn_" to each variable name indicates that this is a mean
 16. 	mn_tBodyAccJerk_mean_Y - 	numeric
 17.	mn_tBodyAccJerk_mean_Z - 	numeric
 18.	mn_tBodyAccJerk_std_X - 	numeric
-19.	mn_tBodyAccJerk_std_Y - 	numeric
-20.	mn_tBodyAccJerk_std_Z -  	numeric
+19	mn_tBodyAccJerk_std_Y - 	numeric
+20.	mn_tBodyAccJerk_std_Z-  	numeric
 21.	mn_tBodyGyro_mean_X - 	numeric
 22.	mn_tBodyGyro_mean_Y - 	numeric
 23.	mn_tBodyGyro_mean_Z - 	numeric
