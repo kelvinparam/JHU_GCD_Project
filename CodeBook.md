@@ -146,4 +146,4 @@ The leading "mn_" to each variable name indicates that this is a mean.
 87.	mn_angle_Y_gravityMean - 	numeric
 88.	mn_angle_Z_gravityMean - 	numeric
 
-January 22, 2015
+January 24, 2015
