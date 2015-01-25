@@ -59,7 +59,7 @@ This data frame is exported as a csv file - "means_by_activity_subject.csv". The
 The leading "mn_" to each variable name indicates that this is a mean
 
 ## Variables
-1.	activity					character
+| 1. | activity					| character |
 2.	subject_id					integer
 3.	mn_tBodyAcc_mean_X				numeric
 4.	mn_tBodyAcc_mean_Y				numeric
