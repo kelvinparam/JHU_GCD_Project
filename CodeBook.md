@@ -59,93 +59,93 @@ This data frame is exported as a csv file - "means_by_activity_subject.csv". The
 The leading "mn_" to each variable name indicates that this is a mean
 
 ## Variables
-|: 1. :|: activity					:|: character :|
-|  2.  | subject_id					 | integer     |
-3.	mn_tBodyAcc_mean_X				numeric
-4.	mn_tBodyAcc_mean_Y				numeric
-5.	mn_tBodyAcc_mean_Z				numeric
-6.	mn_tBodyAcc_std_X				numeric
-7.	mn_tBodyAcc_std_Y				numeric 
-8.	mn_tBodyAcc_std_Z				numeric
-9.	mn_tGravityAcc_mean_X				numeric
-10.	mn_tGravityAcc_mean_Y				numeric
-11.	mn_tGravityAcc_mean_Z				numeric
-12.	mn_tGravityAcc_std_X				numeric
-13.	mn_tGravityAcc_std_Y				numeric
-14.	mn_tGravityAcc_std_Z				numeric
-15.	mn_tBodyAccJerk_mean_X				numeric
-16.	mn_tBodyAccJerk_mean_Y				numeric
-17.	mn_tBodyAccJerk_mean_Z				numeric
-18.	mn_tBodyAccJerk_std_X				numeric
-19.	mn_tBodyAccJerk_std_Y				numeric
-20.	mn_tBodyAccJerk_std_Z				numeric
-21.	mn_tBodyGyro_mean_X				numeric
-22.	mn_tBodyGyro_mean_Y				numeric
-23.	mn_tBodyGyro_mean_Z				numeric
-24.	mn_tBodyGyro_std_X				numeric
-25.	mn_tBodyGyro_std_Y				numeric
-26.	mn_tBodyGyro_std_Z				numeric
-27.	mn_tBodyGyroJerk_mean_X				numeric
-28.	mn_tBodyGyroJerk_mean_Y				numeric
-29.	mn_tBodyGyroJerk_mean_Z				numeric
-30.	mn_tBodyGyroJerk_std_X				numeric
-31.	mn_tBodyGyroJerk_std_Y				numeric
-32.	mn_tBodyGyroJerk_std_Z				numeric
-33.	mn_tBodyAccMag_mean				numeric
-34.	mn_tBodyAccMag_std				numeric
-35.	mn_tGravityAccMag_mean				numeric
-36.	mn_tGravityAccMag_std				numeric
-37.	mn_tBodyAccJerkMag_mean				numeric
-38.	mn_tBodyAccJerkMag_std				numeric
-39.	mn_tBodyGyroMag_mean				numeric
-40.	mn_tBodyGyroMag_std				numeric
-41.	mn_tBodyGyroJerkMag_mean			numeric
-42.	mn_tBodyGyroJerkMag_std				numeric
-43.	mn_fBodyAcc_mean_X				numeric
-44.	mn_fBodyAcc_mean_Y				numeric
-45.	mn_fBodyAcc_mean_Z				numeric
-46.	mn_fBodyAcc_std_X				numeric
-47.	mn_fBodyAcc_std_Y				numeric
-48.	mn_fBodyAcc_std_Z				numeric
-49.	mn_fBodyAcc_meanFreq_X				numeric
-50.	mn_fBodyAcc_meanFreq_Y				numeric
-51.	mn_fBodyAcc_meanFreq_Z				numeric
-52.	mn_fBodyAccJerk_mean_X				numeric
-53.	mn_fBodyAccJerk_mean_Y				numeric
-54.	mn_fBodyAccJerk_mean_Z				numeric
-55.	mn_fBodyAccJerk_std_X				numeric
-56.	mn_fBodyAccJerk_std_Y				numeric
-57.	mn_fBodyAccJerk_std_Z				numeric
-58.	mn_fBodyAccJerk_meanFreq_X			numeric
-59.	mn_fBodyAccJerk_meanFreq_Y			numeric
-60.	mn_fBodyAccJerk_meanFreq_Z			numeric
-61.	mn_fBodyGyro_mean_X				numeric
-62.	mn_fBodyGyro_mean_Y				numeric
-63.	mn_fBodyGyro_mean_Z				numeric
-64.	mn_fBodyGyro_std_X				numeric
-65.	mn_fBodyGyro_std_Y				numeric
-66.	mn_fBodyGyro_std_Z				numeric
-67.	mn_fBodyGyro_meanFreq_X				numeric
-68.	mn_fBodyGyro_meanFreq_Y				numeric
-69.	mn_fBodyGyro_meanFreq_Z				numeric
-70.	mn_fBodyAccMag_mean				numeric
-71.	mn_fBodyAccMag_std				numeric
-72.	mn_fBodyAccMag_meanFreq				numeric
-73.	mn_fBodyBodyAccJerkMag_mean			numeric
-74.	mn_fBodyBodyAccJerkMag_std			numeric
-75.	mn_fBodyBodyAccJerkMag_meanFreq			numeric
-76.	mn_fBodyBodyGyroMag_mean			numeric
-77.	mn_fBodyBodyGyroMag_std				numeric
-78.	mn_fBodyBodyGyroMag_meanFreq			numeric
-79.	mn_fBodyBodyGyroJerkMag_mean			numeric
-80.	mn_fBodyBodyGyroJerkMag_std			numeric
-81.	mn_fBodyBodyGyroJerkMag_meanFreq		numeric
-82.	mn_angle_tBodyAccMean_gravity			numeric
-83.	mn_angle_tBodyAccJerkMean_gravityMean		numeric
-84.	mn_angle_tBodyGyroMean_gravityMean		numeric
-85.	mn_angle_tBodyGyroJerkMean_gravityMean		numeric
-86.	mn_angle_X_gravityMean				numeric
-87.	mn_angle_Y_gravityMean				numeric
-88.	mn_angle_Z_gravityMean				numeric
+1.	activity - 	character
+2.	subject_id - 	integer
+3.	mn_tBodyAcc_mean_X - 	numeric
+4.	mn_tBodyAcc_mean_Y - 	numeric
+5.	mn_tBodyAcc_mean_Z - 	numeric
+6. 	mn_tBodyAcc_std_X - 	numeric
+7. 	mn_tBodyAcc_std_Y - 	numeric
+8.	mn_tBodyAcc_std_Z - 	numeric
+9.	mn_tGravityAcc_mean_X - 	numeric
+10.	mn_tGravityAcc_mean_Y - 	numeric
+11. 	mn_tGravityAcc_mean_Z - 	numeric
+12.	mn_tGravityAcc_std_X - 	numeric
+13. 	mn_tGravityAcc_std_Y - 	numeric
+14. 	mn_tGravityAcc_std_Z -	numeric
+15.	mn_tBodyAccJerk_mean_X - 	numeric
+16. 	mn_tBodyAccJerk_mean_Y - 	numeric
+17.	mn_tBodyAccJerk_mean_Z - 	numeric
+18.	mn_tBodyAccJerk_std_X - 	numeric
+19	mn_tBodyAccJerk_std_Y - 	numeric
+20.	mn_tBodyAccJerk_std_Z-  	numeric
+21.	mn_tBodyGyro_mean_X - 	numeric
+22.	mn_tBodyGyro_mean_Y - 	numeric
+23.	mn_tBodyGyro_mean_Z - 	numeric
+24.	mn_tBodyGyro_std_X - 	numeric
+25.	mn_tBodyGyro_std_Y - 	numeric
+26.	mn_tBodyGyro_std_Z - 	numeric
+27.	mn_tBodyGyroJerk_mean_X - 	numeric
+28.	mn_tBodyGyroJerk_mean_Y - 	numeric
+29.	mn_tBodyGyroJerk_mean_Z - 	numeric
+30.	mn_tBodyGyroJerk_std_X - 	numeric
+31.	mn_tBodyGyroJerk_std_Y - 	numeric
+32.	mn_tBodyGyroJerk_std_Z - 	numeric
+33.	mn_tBodyAccMag_mean - 	numeric
+34.	mn_tBodyAccMag_std - 	numeric
+35.	mn_tGravityAccMag_mean - 	numeric
+36.	mn_tGravityAccMag_std - 	numeric
+37.	mn_tBodyAccJerkMag_mean - 	numeric
+38.	mn_tBodyAccJerkMag_std - 	numeric
+39.	mn_tBodyGyroMag_mean - 	numeric
+40.	mn_tBodyGyroMag_std - 	numeric
+41.	mn_tBodyGyroJerkMag_mean - 	numeric
+42.	mn_tBodyGyroJerkMag_std - 	numeric
+43.	mn_fBodyAcc_mean_X - 	numeric
+44.	mn_fBodyAcc_mean_Y - 	numeric
+45.	mn_fBodyAcc_mean_Z - 	numeric
+46.	mn_fBodyAcc_std_X - 	numeric
+47.	mn_fBodyAcc_std_Y - 	numeric
+48.	mn_fBodyAcc_std_Z - 	numeric
+49. 	mn_fBodyAcc_meanFreq_X - 	numeric
+50. 	mn_fBodyAcc_meanFreq_Y - 	numeric
+51. 	mn_fBodyAcc_meanFreq_Z - 	numeric
+52. 	mn_fBodyAccJerk_mean_X - 	numeric
+53. 	mn_fBodyAccJerk_mean_Y - 	numeric
+54. 	mn_fBodyAccJerk_mean_Z - 	numeric
+55. 	mn_fBodyAccJerk_std_X - 	numeric
+56. 	mn_fBodyAccJerk_std_Y - 	numeric
+57. 	mn_fBodyAccJerk_std_Z - 	numeric
+58. 	mn_fBodyAccJerk_meanFreq_X - 	numeric
+59. 	mn_fBodyAccJerk_meanFreq_Y - 	numeric
+60.	mn_fBodyAccJerk_meanFreq_Z - 	numeric
+61.	mn_fBodyGyro_mean_X - 	numeric
+62. 	mn_fBodyGyro_mean_Y - 	numeric
+63. 	mn_fBodyGyro_mean_Z - 	numeric
+64.	mn_fBodyGyro_std_X - 	numeric
+65.	mn_fBodyGyro_std_Y - 	numeric
+66. 	mn_fBodyGyro_std_Z - 	numeric
+67.	mn_fBodyGyro_meanFreq_X - 	numeric
+68.	mn_fBodyGyro_meanFreq_Y - 	numeric
+69.	mn_fBodyGyro_meanFreq_Z - 	numeric
+70.	mn_fBodyAccMag_mean - 	numeric
+71.	mn_fBodyAccMag_std - 	numeric
+72.	mn_fBodyAccMag_meanFreq - 	numeric
+73.	mn_fBodyBodyAccJerkMag_mean - 	numeric
+74. 	mn_fBodyBodyAccJerkMag_std - 	numeric
+75.	mn_fBodyBodyAccJerkMag_meanFreq - 	numeric
+76.	mn_fBodyBodyGyroMag_mean - 	numeric
+77.	mn_fBodyBodyGyroMag_std - 	numeric
+78.	mn_fBodyBodyGyroMag_meanFreq - 	numeric
+79.	mn_fBodyBodyGyroJerkMag_mean - 	numeric
+80.	mn_fBodyBodyGyroJerkMag_std - 	numeric
+81.	mn_fBodyBodyGyroJerkMag_meanFreq - 	numeric
+82.	mn_angle_tBodyAccMean_gravity - 	numeric
+83.	mn_angle_tBodyAccJerkMean_gravityMean - 	numeric
+84.	mn_angle_tBodyGyroMean_gravityMean - 	numeric
+85.	mn_angle_tBodyGyroJerkMean_gravityMean - 	numeric
+86.	mn_angle_X_gravityMean - 	numeric
+87.	mn_angle_Y_gravityMean - 	numeric
+88.	mn_angle_Z_gravityMean - 	numeric
 
 January 22, 2015
