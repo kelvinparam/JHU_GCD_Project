@@ -23,6 +23,9 @@ Download the zip file from the first URL in this document, and extract its conte
 If you're using, R Studio, you can set up the default working directory by clicking on "Tools" in the menu bar, and then selecting "Global Options". Alternatively use ALT+T+G.
 You can find out your working directory by the command "getwd()". 
 
-The resulting data frame from step 6 is exported as a csv file - "means_by_activity_subject.csv". The csv file is written to  working directory.
+The resulting data frame from step 6 is exported as a text file - "means_by_activity_subject.txt", with header. This txt file is written to the working directory. 
+To import this file into R, use "read.table()" with the "header=TRUE" option e.g. df_test_output <- read.table("means_by_activity_subject.txt", header=TRUE).
+
+run_analysis.R also produces a csv file of the same data frame - "means_by_activity_subject.csv". It is also written to the working directory.
 
 January 24, 2015

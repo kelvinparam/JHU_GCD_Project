@@ -52,7 +52,10 @@ The final data frame "df_means_by_activity_subject" looks like this - just a lot
 | 5. |  LAYING  |      5     |   0.2783343         | -0.01830421        | -0.1079376         | -0.9659345        | 
 | 6. |  LAYING  |      6     |   0.2486565         | -0.01025292        | -0.1331196         | -0.9340494        |
 
-This data frame is exported as a csv file - "means_by_activity_subject.csv". The csv file is written to the working directory.
+The resulting data frame from step 6 is exported as a text file - "means_by_activity_subject.txt", with header. This txt file is written to the working directory. 
+To import this file into R, use "read.table()" with the "header=TRUE" option e.g. df_test_output <- read.table("means_by_activity_subject.txt", header=TRUE).
+
+run_analysis.R also produces a csv file of the same data frame - "means_by_activity_subject.csv". It is also written to the working directory.
 
 The leading "mn_" to each variable name indicates that this is a mean.
 

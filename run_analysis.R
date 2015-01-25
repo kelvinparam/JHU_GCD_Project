@@ -1,4 +1,4 @@
-#run_analysis.R v 1.0
+#run_analysis.R v 1.3
 
 library(data.table)
 library(plyr)
@@ -74,5 +74,8 @@ for (i in 3:length(v_colnames)) {
 }
 colnames(df_means_by_activity_subject) <- v_colnames #replace original column names with those in v_colnames
 
+#export df_means_by_activity_subject as a txt file
+write.table(df_means_by_activity_subject, file="means_by_activity_subject.txt", row.names=FALSE)
+
 #export df_means_by_activity_subject as a csv file
-write.csv(df_means_by_activity_subject,file="means_by_activity_subject.csv",row.names=F)
+write.csv(df_means_by_activity_subject,file="means_by_activity_subject.csv", row.names=FALSE)
