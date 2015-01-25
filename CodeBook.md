@@ -56,7 +56,7 @@ The final data frame "df_means_by_activity_subject" looks like this - just a lot
 
 This data frame is exported as a csv file - "means_by_activity_subject.csv". The csv file is written to the working directory.
 
-The leading "mn_" to each variable name indicates that this is a mean
+The leading "mn_" to each variable name indicates that this is a mean.
 
 ## Variables
 1.	activity - 	character
