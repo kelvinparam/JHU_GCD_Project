@@ -11,11 +11,9 @@ More information about the data sets is available from http://archive.ics.uci.ed
 
 run_analysis.R is written to be run in R or R Studio in a Linux environment.
 
-Download the zip file from the above URL, and extract its contents. Copy and paste the "UCI HAR Dataset" directory into your R working directory. 
+Download the zip file from the first URL in this document, and extract its contents. Copy and paste the "UCI HAR Dataset" directory into your R working directory. 
 If you're using, R Studio, you can set up the default working directory by clicking on "Tools" in the menu bar, and then selecting "Global Options". Alternatively use ALT+T+G.
-You can find out your working directory by the command "getwd()" 
-
-Download the zip file from the above URL, and extract its contents. Copy and paste the "UCI HAR Dataset" directory into ~/Workspace/R_Stuff/
+You can find out your working directory by the command "getwd()".
 
 
 ## What run_analysis.R does
