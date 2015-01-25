@@ -1,4 +1,4 @@
-#run_analysis.R
+#run_analysis.R v 1.0
 
 library(data.table)
 library(plyr)
